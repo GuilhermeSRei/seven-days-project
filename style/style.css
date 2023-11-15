@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans:wght@400;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Josefin+Sans:wght@400;500;700&family=Poppins&display=swap');
 
 *{
     margin: 0;
@@ -11,6 +11,10 @@
     --cor-1:#ffffff;
     --cor-2:#667085;
     --cor-3:#8E2424;
+    --cor-4:#101828;
+    --cor-5:#8E24240D 5%;
+
+
     --font-1: Inter, sans-serif;
 }
 
@@ -68,6 +72,7 @@ a {
 #titulo-2{
     font-size: 48px;
     font-weight: 600;
+    color: var(--cor-4);
 }
 
 #txt-1{
@@ -82,8 +87,45 @@ a {
 }
 
 .conteiner-3{
-    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0px 0px 96px 0px;
+    gap: 20px;
 }
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 32px 0px 32px;
+}
+
+#titulo-3{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-3);
+    line-height: 72px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#sub-titulo-1{
+    font-size: 18px;
+    font-weight: 500px;
+    color: var(--cor-4);
+}
+
+#txt-2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-2);
+}
+
 
 @media (min-width: 1440px) {
     .cabecalho{
